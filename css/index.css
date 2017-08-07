@@ -4,6 +4,6 @@
     height: 8rem;
     background-color: red;
     width: 100%;
+    overflow: hidden;
 }
-
 /*banner结束*/
