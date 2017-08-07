@@ -1,0 +1,9 @@
+/*banner 开始*/
+#wrapper{
+    position: relative;
+    height: 8rem;
+    background-color: red;
+    width: 100%;
+}
+
+/*banner结束*/

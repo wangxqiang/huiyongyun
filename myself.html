@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    </script>
+</head>
+<body>
+<!--头部菜单开始-->
+<!-- header -->
+<div id="header">
+    <a href="index.html" class="logo"></a>
+    <span class="menuIcon"></span>
+    <span class="closeNav"></span>
+</div>
+<ul class="nav">
+    <li><a href="index.html">首页</a></li>
+    <li><a href="#">产品</a></li>
+    <li><a href="download.html">APP下载</a></li>
+    <li><a href="#">案例</a></li>
+</ul>
+<div class="blankTop"></div>
+<!--头部菜单结束-->
+
+<div style="width: 19rem;height: 50rem;background-color: red;">占位<br/>符<br/><br/></div>
+
+
+<!--底部模块开始-->
+<div class="fixBtnGroup">
+    <a href="javascript:showNotice(2);">申请试用</a>
+    <a href="#">在线客服</a>
+</div>
+<!-- footer -->
+<div id="footer">
+    <p>
+        <a href="#">联系我们</a>
+        <br/>
+        <a href="#"> 电话:0531-58592518</a>
+
+    </p>
+    <p>© 2006-2016 汇用餐饮管理 版权所有</p>
+    <p>许可证号:鲁ICP备15039705号-2</p>
+</div>
+<div class="blankFix"></div>
+<!-- script -->
+<!--申请弹窗的蒙版-->
+<div class="window" style="background-color: rgba(255,245,250,.5);">
+    <div class="winBg"></div>
+    <div class="wind">
+        <div class="apply">
+            <h1>申请人手机号</h1>
+            <p><input type="tel" id="popmobile" placeholder="请输入您的手机号码" class="font28"></p>
+            <p class="font24 pink" style="padding:1.2rem 0 0 5%;display: none;" id="popmobiletips">请输入正确的手机号码</p>
+            <p style="padding:1rem 0;"><a href="javascript:showNotice(3);" class="btn1 borRadius5">提交申请</a></p>
+        </div>
+        <div class="succeed">
+            <h1>申请成功！</h1>
+            <p class="font28">您已成功申请，感谢您对的信任和支持！我们的工作人员将尽快与您取得联系，请耐心等待……</p>
+            <p style="padding-top:2rem;margin-bottom: 2rem"><a href="javascript:close();" class="btn1 borRadius5">我知道了</a></p>
+        </div>
+    </div>
+</div>
+<!--底部模块结束-->
+</body>
+
+
+</html>
